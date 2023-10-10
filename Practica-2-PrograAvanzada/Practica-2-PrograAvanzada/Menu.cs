@@ -10,6 +10,9 @@ namespace Practica_2_PrograAvanzada
     {
         public void MostrarMenu()
         {
+           
+            Hotel hotel = new Hotel();
+
 
             while (true)
             {
@@ -38,29 +41,7 @@ namespace Practica_2_PrograAvanzada
                         
                         break;
                     case "4":
-                        
-                        String nombreHotel = Console.ReadLine();
-                        switch (nombreHotel)
-                        {
-                            case "Hotel New York":
-                                
-                                break;
-
-                            case "Hotel Continental de Roma":
-
-                                break;
-                            case "Hotel Continental de Marruecos":
-
-                                break;
-
-                            case "Hotel Continental de Osaka Tokio":
-                                break;
-
-                            default:
-                                Console.WriteLine("El hotel seleccionado no existe");
-                                break;
-                        }
-
+                        hotel.Insertar();
                         break;
                     case "5":
                         Console.WriteLine("Opcion 5");
@@ -70,6 +51,7 @@ namespace Practica_2_PrograAvanzada
                         break;
                     case "7":
                         Console.WriteLine("Opcion 7");
+                        hotel.BuscarEmpleados();
                         break;
                     case "8":
                         Console.WriteLine("Opcion 8");
@@ -130,5 +112,10 @@ namespace Practica_2_PrograAvanzada
                 Console.Clear();
             }
         }
+
     }
+
+
+
+
 }
