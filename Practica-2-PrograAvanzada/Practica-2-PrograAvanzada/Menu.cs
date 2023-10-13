@@ -11,8 +11,11 @@ namespace Practica_2_PrograAvanzada
         public void MostrarMenu()
         {
            
-            Hotel hotel = new Hotel();
-
+            Lista lista = new Lista();
+            Hotel hotelNewYork = new Hotel("Hotel New York");
+            Hotel hotelRoma = new Hotel("Hotel Continental de Roma");
+            Hotel hotelMarruecos = new Hotel("Hotel Continental de Marruecos");
+            Hotel hotelTokio = new Hotel("Hotel Continental de Osaka Tokyo");
 
             while (true)
             {
@@ -25,14 +28,18 @@ namespace Practica_2_PrograAvanzada
                     "6- Eliminar todas las reservaciones por hotel ?\n" +
                     "7- Buscar persona por número de cédula o pasaporte \n" +
                     "8- Validar disponibilidad de habitación en hotel \n" +
-                    "9- Salir");
+                    "9- Registrar usuario\n" +
+                    "10- Salir");
 
                 string opcion = Console.ReadLine();
 
                 switch (opcion)
                 {
                     case "1":
-                        
+                        Console.WriteLine(hotelNewYork.NombreHotel);
+                        Console.WriteLine(hotelRoma.NombreHotel);
+                        Console.WriteLine(hotelMarruecos.NombreHotel);
+                        Console.WriteLine(hotelTokio.NombreHotel);
                         break;
                     case "2":
                         subMenuOpcion2();
@@ -41,7 +48,7 @@ namespace Practica_2_PrograAvanzada
                         
                         break;
                     case "4":
-                        hotel.Insertar();
+                        
                         break;
                     case "5":
                         Console.WriteLine("Opcion 5");
@@ -51,12 +58,15 @@ namespace Practica_2_PrograAvanzada
                         break;
                     case "7":
                         Console.WriteLine("Opcion 7");
-                        hotel.BuscarEmpleados();
+                        lista.BuscarCliente();
                         break;
                     case "8":
                         Console.WriteLine("Opcion 8");
                         break;
                     case "9":
+                        lista.InsertarUsuario();
+                        break;
+                    case "10":
                         Console.WriteLine("Hasta luego");
                         return;
                     default:

@@ -5,3 +5,10 @@ C:\Users\renan\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada
 C:\Users\renan\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada\Practica-2-PrograAvanzada\obj\Debug\Practica-2-PrograAvanzada.csproj.CoreCompileInputs.cache
 C:\Users\renan\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada\Practica-2-PrograAvanzada\obj\Debug\Practica-2-PrograAvanzada.exe
 C:\Users\renan\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada\Practica-2-PrograAvanzada\obj\Debug\Practica-2-PrograAvanzada.pdb
+C:\Users\Jose\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada\Practica-2-PrograAvanzada\bin\Debug\Practica-2-PrograAvanzada.exe.config
+C:\Users\Jose\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada\Practica-2-PrograAvanzada\bin\Debug\Practica-2-PrograAvanzada.exe
+C:\Users\Jose\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada\Practica-2-PrograAvanzada\bin\Debug\Practica-2-PrograAvanzada.pdb
+C:\Users\Jose\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada\Practica-2-PrograAvanzada\obj\Debug\Practica-2-PrograAvanzada.csproj.AssemblyReference.cache
+C:\Users\Jose\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada\Practica-2-PrograAvanzada\obj\Debug\Practica-2-PrograAvanzada.csproj.CoreCompileInputs.cache
+C:\Users\Jose\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada\Practica-2-PrograAvanzada\obj\Debug\Practica-2-PrograAvanzada.exe
+C:\Users\Jose\Source\Repos\Practica-2-Progra-Avanzada\Practica-2-PrograAvanzada\Practica-2-PrograAvanzada\obj\Debug\Practica-2-PrograAvanzada.pdb
