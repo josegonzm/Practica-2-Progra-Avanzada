@@ -28,8 +28,7 @@ namespace Practica_2_PrograAvanzada
                     "6- Eliminar todas las reservaciones por hotel ?\n" +
                     "7- Buscar persona por número de cédula o pasaporte \n" +
                     "8- Validar disponibilidad de habitación en hotel \n" +
-                    "9- Registrar usuario\n" +
-                    "10- Salir");
+                    "9- Salir");
 
                 string opcion = Console.ReadLine();
 
@@ -48,7 +47,7 @@ namespace Practica_2_PrograAvanzada
                         
                         break;
                     case "4":
-                        
+                        lista.InsertarReserva();
                         break;
                     case "5":
                         Console.WriteLine("Opcion 5");
@@ -64,11 +63,8 @@ namespace Practica_2_PrograAvanzada
                         Console.WriteLine("Opcion 8");
                         break;
                     case "9":
-                        lista.InsertarUsuario();
-                        break;
-                    case "10":
                         Console.WriteLine("Hasta luego");
-                        return;
+                        break;
                     default:
                         Console.WriteLine("Incorrecto");
                         break;

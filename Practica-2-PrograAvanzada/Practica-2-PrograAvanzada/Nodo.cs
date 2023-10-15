@@ -19,11 +19,9 @@ namespace Practica_2_PrograAvanzada
             this.anterior = null;
         }
 
-        public Persona Persona
-        {
-            get { return persona; }
-            set { persona = value; }
-        }
+        public Reservacion Reservacion {  get; set; }
+
+        public Persona Persona { get; set; }
 
         public Nodo Siguiente
         {

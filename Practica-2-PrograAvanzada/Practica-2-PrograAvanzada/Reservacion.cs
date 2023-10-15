@@ -8,7 +8,7 @@ namespace Practica_2_PrograAvanzada
 {
     internal class Reservacion
     {
-        public Lista Hotel {  get; set; }
+        public Hotel Hotel {  get; set; }
 
         public Habitacion Habitacion { get; set; }
 
